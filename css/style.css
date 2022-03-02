@@ -1,0 +1,148 @@
+/* Variables */
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
+/* Reset Estilos */
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  line-height: 1.6;
+  font-size: 1.1rem;
+  background-color: #7900FF;
+}
+
+/* Header */
+.b-container {
+  background-color: #7900FF;
+}
+
+.container {
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0 2rem;
+  width: 90vw;
+}
+
+.menu .nav-item {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  color: #ffffff;
+  padding: 10px 25px;
+  margin: 0 25px;
+  font-family: "Russo One", sans-serif;
+}
+.menu .nav-item:hover {
+  background-color: #548CFF;
+  color: #7900FF;
+  transition: 1s;
+}
+
+/* MAIN */
+.row .main-cont {
+  color: #548CFF;
+  margin-top: 8em;
+  padding-left: 150px;
+}
+
+.row .img-fluid {
+  border-radius: 15px;
+  box-shadow: 10px 1px 1px 1px #548CFF;
+  margin-bottom: 30px;
+}
+
+.img-ani-uno:hover {
+  box-shadow: 10px 1px 1px 1px #2b2b8a;
+  border: 3px solid white;
+}
+
+.boton {
+  padding: 2px 26px;
+  border: none;
+  border-radius: 30px;
+  background-color: #548CFF;
+  color: #7900FF;
+}
+
+.boton:hover {
+  background-color: #CFFFDC;
+  color: #7900FF;
+}
+
+.titulo {
+  font-family: "Russo One", sans-serif;
+  color: #2f0c70;
+}
+
+.span-title {
+  color: #CFFFDC;
+}
+
+/* Section programas */
+.bg-im {
+  background-image: url(../src/assets/img/wall.png);
+  color: white;
+}
+
+.text-sub {
+  font-family: "Fjalla One", sans-serif;
+  font-size: 35px;
+  color: #7900FF;
+}
+
+.text-promo {
+  font-family: "Fjalla One", sans-serif;
+  font-size: 28px;
+}
+
+.at-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.img-uno {
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 200px;
+}
+
+.img-uno:hover {
+  border: 8px solid #548CFF;
+  animation-name: flip-horizontal;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none;
+}
+
+@keyframes flip-horizontal {
+  0% {
+    transform: rotateX(0);
+  }
+  100% {
+    transform: rotateX(-180deg);
+  }
+}
+/* CONTACTO */
+.b-text {
+  font-weight: bold;
+  color: #CFFFDC;
+}
+
+.free {
+  color: #CFFFDC;
+}
+
+/* TAEKWONDO HTML */
+.text-dos {
+  color: #CFFFDC;
+}
+
+/*# sourceMappingURL=style.css.map */

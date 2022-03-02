@@ -1,0 +1,51 @@
+/* MAIN */
+
+
+.row .main-cont {
+    color: $color-secundario;
+    margin-top: 8em;
+    padding-left: 150px;
+}
+
+.row .img-fluid {
+    border-radius: 15px;
+    box-shadow: 10px 1px 1px 1px $color-secundario;
+    margin-bottom: 30px;
+
+
+
+}
+
+.img-ani-uno:hover {
+
+    box-shadow: 10px 1px 1px 1px rgb(43, 43, 138);
+    border: 3px solid white;
+
+}
+
+.boton {
+
+    padding: 2px 26px;
+    border: none;
+    border-radius: 30px;
+    background-color: $color-secundario;
+    color: $color-principal;
+
+}
+
+.boton:hover {
+
+   background-color: $color-alternativo;
+   color: $color-principal;
+}
+
+
+.titulo {
+
+    font-family: $font-russo;
+    color: rgb(47, 12, 112);
+}
+.span-title {
+
+    color: $color-alternativo;
+}

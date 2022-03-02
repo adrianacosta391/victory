@@ -1,0 +1,56 @@
+/* Section programas */
+
+.bg-im {
+
+    background-image: url(../src/assets/img/wall.png);
+    color: white;
+}
+
+.text-sub {
+    font-family: $font-text;
+    font-size: 35px;
+    color: $color-principal;
+}
+.text-promo {
+    font-family: $font-text;
+    font-size: 28px;
+}
+
+.at-cont {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.img-uno {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 200px;
+}
+
+.img-uno:hover {
+
+
+
+    border: 8px solid $color-secundario;
+    animation-name: flip-horizontal;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+
+}
+
+@keyframes flip-horizontal {
+    0% {
+        transform: rotateX(0);
+    }
+
+    100% {
+        transform: rotateX(-180deg);
+    }
+}

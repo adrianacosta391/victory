@@ -1,0 +1,42 @@
+
+
+/* Header */
+
+.b-container {
+
+    background-color: $color-principal;
+}
+
+.container {
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0 2rem;
+    width: $container-w;
+
+}
+
+
+
+.menu {
+
+    .nav-item {
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 18px;
+        color: #ffffff;
+        padding: 10px 25px;
+        margin: 0 25px;
+        font-family: $font-russo;
+        
+        &:hover {
+            background-color: $color-secundario;
+            color: $color-principal;
+            transition: 1s;
+
+        }
+    }
+}
+
+
+
+
