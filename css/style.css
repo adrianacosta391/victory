@@ -46,8 +46,16 @@ body {
   color: #548CFF;
   margin-top: 8em;
   padding-left: 150px;
+  margin-bottom: 30px;
 }
 
+@media only screen and (max-width: 800px) {
+  .row .main-cont {
+    margin-top: 3px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+}
 .row .img-fluid {
   border-radius: 15px;
   box-shadow: 10px 1px 1px 1px #548CFF;

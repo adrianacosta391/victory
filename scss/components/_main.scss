@@ -5,6 +5,17 @@
     color: $color-secundario;
     margin-top: 8em;
     padding-left: 150px;
+    margin-bottom: 30px;
+
+
+}
+
+@media only screen and (max-width: 800px) {
+    .row .main-cont {
+        margin-top: 3px;
+        padding-left: 20px;
+        margin-bottom: 20px;
+    }
 }
 
 .row .img-fluid {
@@ -35,8 +46,8 @@
 
 .boton:hover {
 
-   background-color: $color-alternativo;
-   color: $color-principal;
+    background-color: $color-alternativo;
+    color: $color-principal;
 }
 
 
@@ -45,6 +56,7 @@
     font-family: $font-russo;
     color: rgb(47, 12, 112);
 }
+
 .span-title {
 
     color: $color-alternativo;
